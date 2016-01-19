@@ -1,0 +1,685 @@
+a{
+    text-decoration: none;
+}
+
+.aceptar_atras{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 30px;
+    margin-top: 2%;
+}
+
+.aceptar_atras input{
+    width: 47%;
+
+}
+
+.aceptar_atras input, #mas_menos input{
+    background-color: #C8E6C9;
+    border: 2px outset #6ba65f;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    box-shadow: 1px 1px 1px #a3a3a3;
+    font-size: 1.1em;
+    outline: none;
+}
+
+.aceptar_atras input:hover{
+
+}
+
+.aceptar_atras input:active, #mas_menos input:active{
+    background-color: #6e846f;
+    border: 2px inset #53834a;
+    color: white;
+    box-shadow: none;
+}
+
+.aceptar_atras input:not(#enviar_reserva){
+    margin-right: 6%;
+}
+
+aside{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+#buscador_huespedes, #entrada_salida, #inputs_entrada_salida, #div_filtro{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    margin-bottom: 3px;
+}
+
+#div_filtro label, #filtro{
+    width: 45%;
+    margin-left: 2%;
+    border-radius: 5px;
+    display: flex;
+    font-size: 1em;
+    flex-direction: row;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+#buscarCasa, #tipoAlojamiento{
+    width: 45%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+}
+
+.caracteristicas, .descripcion{
+    display: none;
+}
+
+#inputs_entrada_salida input{
+    width: 45%;
+    margin-left: 2%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 5px;
+}
+
+#entrada_salida label{
+    width: 45%;
+    margin-left: 2%;
+    font-size: 1em;
+}
+
+#cabecera{
+    background-color: #4caf50;
+    padding: 0;
+    margin: 0;
+    border-bottom: 2px groove #387038;
+}
+
+.cabecera_casas{
+    width: 100%;
+}
+
+.campos_formularios:not(.aceptar_atras){
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+}
+
+.campos_formularios div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#casas {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#casas article{
+    width: 100%;
+}
+
+.campos_formularios div>input:not(.dc_nCuenta) {
+    width: 20%;
+    margin-right: 2%;
+}
+
+#contenedor{
+    width: 100%;
+}
+
+#cuerpo{
+    background: linear-gradient(to bottom, #e8f5e9,#81c784, #43a047, #1b5e20) fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+#dc{
+    width: 16%;
+    margin-right: 2%;
+}
+
+#div_buscar{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.entrar {
+    width: 33%;
+    text-align: center;
+    height: 8%;
+    border-radius: 25px;
+    border: 3px inset   ;
+    top:45%;
+    left: 33%;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    overflow: hidden;
+    background: #d11e1d;
+    color: white;
+    transition-property: color;
+    transition-duration: 0.3s;
+    line-height: 250%;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+   outline: none;
+}
+.entrar:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../images/fondo_boton_entrar.png");
+    border-image: url("../images/background_button_enter.png");
+    border-radius: 25%;
+    border: 3px outset;
+    color: #000;
+    transform: scale(2);
+    transition-property: transform;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-out;
+}
+.entrar:hover, .entrar:focus, .entrar:active {
+    color: #000;
+    text-decoration: none;
+
+}
+.entrar:hover:before, .entrar:focus:before, .entrar:active:before {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+#enviar_busqueda{
+    width: 75%;
+    margin: 0 auto;
+    background-color: #727272;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#enviar_busqueda:active{
+    background-color: rgba(0, 0, 0, 0.87);
+}
+
+.estrella_opiniones{
+    width: 18px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+footer{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #1b5e20;
+}
+
+footer p{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: .9em;
+   margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+#form_buscar_casa_rural{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#form_buscar_casa_rural  input, #form_buscar_casa_rural select{
+    border-radius: 8px;
+}
+
+
+#form_reserva{
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+}
+
+.foto_casa{
+    margin: 2% 0 2% 2%;
+    padding: 0;
+    height: 100px;
+    width: 35%;
+    display: inline-flex;
+    position: relative;
+    border: 1px outset #525b5f;
+    border-radius: 5px;
+}
+
+.image{
+    width: 100%;
+}
+
+/*  ELEMENTOS DE LA GALERIA DE IMAGENES */
+
+#galeria {
+    padding:0;
+    margin:0;
+    margin-bottom: 15px;
+    list-style-type:none;
+    height: 150px;
+    width:100%;
+    background-image: url("../images/casa_porche_s.png");
+    background-repeat: no-repeat;
+    border-right:2px groove #000;
+}
+#galeria li {
+    width:10%;
+    height:150px;
+    float:left;
+    padding: 0;
+    margin: 0;
+    border:2px groove #000;
+}
+#galeria li img {
+    height:150px;
+    width:100%;
+}
+#galeria li:hover {
+    background:#eee;
+    width:58%;
+}
+#galeria li:hover img {
+    width: 100%;
+}
+
+.info_casa a{
+    display: block;
+    width:60%;
+    text-align: center;
+    font-size: 1.3em;
+    margin:0;
+    margin-top: 2px;
+    background-color: #FFEB3B;
+    border: 2px outset #FBC02D;
+    /*padding: 5px 30px 5px 30px;*/
+    color: #525252;
+    font-family: 'Poppins';
+    margin-bottom: 5px;
+}
+
+.info_casa a:active{
+    color: #252525;
+    background-color: #cdb935;
+    border: 2px inset #c99728;
+}
+
+a:link{
+    text-decoration:none;color:#0000cc;
+}
+
+header{
+    width: 100%;
+}
+
+hr{
+    margin: 5px;
+    clear: both;
+}
+
+.imagen_principal {
+    width: 100%;
+    background-image: url("../images/fondo_principal_s.png");
+    background-repeat: no-repeat;
+}
+
+.info_casa{
+    display: flex;
+    max-width: 100%;
+    flex-direction: row;
+    border-top: 1px solid #0b1123;
+    border-bottom: 1px solid #0b1123;
+    font-size: .8em;
+}
+
+.informacion{
+    width: 58%;
+    max-width: 58%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 5px 5px 10px;
+}
+
+.informacion p{
+    width: 100%;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+#mas_menos{
+    display: flex;
+    flex-direction: row;
+}
+#mas_menos input{
+    width: 17%;
+    margin-left: 4%;
+    font-size: 1.4em;
+}
+
+#mostrar_numero_personas{
+    width: 7%;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+#main{
+    display: flex;
+}
+
+#menos{
+    margin-right: 4%;
+}
+
+#nCuenta{
+    width: 38%;
+}
+
+.pajaro {
+    position:absolute;
+    width:30px;
+    height:27px;
+    float: right;
+    right:-30px;
+    background:url(../images/pajaro.gif);
+    -moz-animation: pajaro1 17s infinite linear;
+    -webkit-animation: pajaro1 17s infinite linear;
+    animation: pajaro1 17s infinite linear;
+}
+@-moz-keyframes pajaro1 {
+    0% 	{right:-7px;top:24%;-webkit-transform:scale(0.6);}
+    100% 	{right:115%;top:21%;-webkit-transform:scale(0.9);}
+}
+@-webkit-keyframes pajaro1 {
+    0% 	{right:-7px;top:24%;-webkit-transform:scale(0.6);}
+    100% 	{right:115%;top:21%;-webkit-transform:scale(0.9);}
+}
+.pajaro2 {
+    -webkit-animation: pajaro2 20s infinite linear;
+    -moz-animation: pajaro2 20s infinite linear;
+    animation: pajaro2 20s infinite linear;
+}
+
+@-webkit-keyframes pajaro2 {
+    0% 	{right:-20px;top:18%;-webkit-transform:scale(0.5);}
+    100% 	{right:105%;top:20%;-webkit-transform:scale(0.8);}
+}
+@-moz-keyframes pajaro2 {
+    0% 	{right:-20px;top:18%;-webkit-transform:scale(0.5);}
+    100% 	{right:105%;top:20%;-webkit-transform:scale(0.8);}
+}
+
+#pantalla_principal{
+    width: 100%;
+}
+
+#principal {
+    width: 100%;
+}
+
+
+#principal p{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+}
+
+.galeria {
+    display: none;
+}
+
+.galeria img{
+    display: none;
+}
+
+#titulo_pagina_principal{
+    width: 70%;
+    margin: auto;
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    font-weight: bold;
+    font-size: 2.4em;
+}
+
+#titulo_principal{
+    margin: auto;
+    padding: 15px;
+    font-weight: bold;
+}
+
+/**
+*
+* Para resoluciones con una anchura mínima de 410px
+*
+*/
+@media screen and (min-width:410px) {
+
+
+    .aceptar_atras input{
+        font-size: 1em;
+
+    }
+
+    #buscador_huespedes, #entrada_salida, #inputs_entrada_salida{
+        width: 90%;
+        display: flex;
+        padding: 0px;
+        margin: 0 auto;
+        font-size: 1.2em;
+    }
+
+    #casas {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #casas article{
+        width: 100%;
+    }
+
+    #buscador_huespedes, #entrada_salida, #inputs_entrada_salida, #div_filtro{
+        width: 90%;
+        display: flex;
+        margin: 0 auto;
+        flex-direction: row;
+        margin-bottom: 3px;
+    }
+
+    #div_filtro label, #filtro{
+        width: 45%;
+        margin-left: 2%;
+        border-radius: 5px;
+        display: flex;
+        font-size: 1em;
+        flex-direction: row;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+
+    #entrada_salida label{
+        width: 45%;
+        margin-left: 2%;
+    }
+
+    .foto_casa{
+        margin: 2% 0 2% 2%;
+        padding: 0;
+        width: 35%;
+        display: inline-flex;
+        position: relative;
+        border: 1px outset #525b5f;
+        border-radius: 5px;
+    }
+
+    .image{
+        width: 100%;
+    }
+
+    .imagen_principal {
+        width: 100%;
+        background: url("../images/fondo_principal.png") fixed;
+        background-repeat: no-repeat;
+    }
+
+    .informacion{
+        width: 58%;
+        max-width: 58%;
+        display: flex;
+        flex-direction: column;
+        padding: 12px 3px 3px 8px;
+        font-size: 1.3em;
+    }
+
+    .informacion p{
+        width: 100%;
+        line-height: 170%;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    #form_buscar_casa_rural{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #form_buscar_casa_rural  input, #form_buscar_casa_rural select{
+        border-radius: 8px;
+    }
+
+
+
+    #form_reserva{
+        width: 100%;
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+    }
+
+    #main{
+        display: flex;
+    }
+
+    #mas_menos{
+        display: flex;
+        flex-direction: row;
+    }
+    #mas_menos input{
+        width: 17%;
+        margin-left: 4%;
+        border-radius: 5px;
+        font-size: 1.4em;
+    }
+
+    #titulo_pagina_principal{
+        font-size: 3em;
+    }
+
+    #titulo_principal{
+        font-size: 3em;
+    }
+}
+
+/**
+*
+* Para resoluciones con una anchura mínima de 869px
+*
+*/
+@media screen and (min-width:683px) {
+
+
+    aside{
+        width: 30%;
+    }
+
+    #cabecera, #contenedor, .galeria, #cuerpo{
+        background: white;
+        margin: 0;
+        padding: 0;
+        border-bottom: none;
+    }
+
+    #contenedor{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .imagen_principal{
+        background-image: url("../images/imagen_principal_pc.png");
+    }
+
+    .pajaro, .pajaro2{
+        visibility: hidden;
+        display: none;
+    }
+
+    .galeria{
+        display: block;
+        visibility: visible;
+        position: relative;
+    }
+
+    .galeria img{
+        display: block;
+        width: 20%;
+    }
+
+    #separador_cabecera{
+        background-color: rgba(2, 74, 11, 0.86);
+        height: 1em;
+        width: 100%;
+    }
+
+    #titulo_pagina_principal{
+        padding: 0;
+        width: 65%;
+        margin: auto;
+        font-size:60px;
+    }
+
+    #titulo_principal{
+        font-size: 3em;
+    }
+}
+
+
