@@ -750,7 +750,7 @@ hr {
         transition: 0.5s;
         font-size: 12px;
         padding: 1px 5px 1px 5px;
-        max-height: 15px;
+        max-height: 20px;
     }
 
     .caracteristicas p:hover{
