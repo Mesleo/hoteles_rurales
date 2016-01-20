@@ -9,6 +9,7 @@
     <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Poppins:600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1;">
 </head>
 <body id="cuerpo">
@@ -18,21 +19,54 @@
     <hr id="separador_cabecera">
         <div class="galeria">
             <picture class="cabecera_casas">
-                <source
-                media="(min-width: 770px)"
-                srcset="images/galeria_casa1.jpg">
-                <source
-                media="(min-width: 400px)"
-                srcset="images/header_casas_m.png">
-                <img src="images/header_casas_s.jpg" alt="cocina" title="cocina"/>
+                <!--<source-->
+                        <!--media="(min-width: 683px)"-->
+                        <!--srcset="images/galeria_casa1.png">-->
+                <!--<source-->
+                <!--media="(min-width: 900px)"-->
+                <!--srcset="images/galeria_casa1_b.jpg">-->
+                <img src="images/galeria_casa1.jpg" alt="Finca Mª Luisa" title="Finca Mª Luisas"/>
+                <div class="destacado">Destacado</div>
+            </picture>
+            <picture class="cabecera_casas">
+                <!--<source-->
+                        <!--media="(min-width: 900px)"-->
+                        <!--srcset="images/galeria_casa2_b.jpg">-->
+                <!--<source-->
+                        <!--media="(min-width: 400px)"-->
+                        <!--srcset="images/galeria_casa2.png">-->
+                <img src="images/galeria_casa2.jpg" alt="Cortijo 'El Molino'" title="Cortijo 'El Molino'"/>
+                <div class="destacado">Destacado</div>
+            </picture>
+            <picture class="cabecera_casas">
+                <!--<source-->
+                        <!--media="(min-width: 900px)"-->
+                        <!--srcset="images/galeria_casa3_b.jpg">-->
+                <!--<source-->
+                        <!--media="(min-width: 400px)"-->
+                        <!--srcset="images/galeria_casa3.png">-->
+                <img src="images/galeria_casa3.jpg" alt="La Canaleja" title="La Canaleja"/>
+                <div class="destacado">Destacado</div>
+            </picture>
+            <picture class="cabecera_casas ultima_foto_galeria">
+                <!--<source-->
+                        <!--media="(min-width: 900px)"-->
+                        <!--srcset="images/galeria_casa4_b.jpg">-->
+                <!--<source-->
+                        <!--media="(min-width: 400px)"-->
+                        <!--srcset="images/galeria_casa4.png">-->
+                <img src="images/galeria_casa4.jpg" alt="Santa Ana" title="Santa Ana"/>
+                <div class="destacado">Destacado</div>
             </picture>
         </div>
     <hr id="separador:galeria">
     <div id="contenedor">
         <aside>
-            <div id="form_buscar_casa_rural" action="#">
+            <form id="form_buscar_casa_rural" action="#">
                 <div id="buscador_huespedes">
+                    <label class="oculto">Destino: </label>
                     <input type="search" id="buscarCasa" placeholder="Buscar...">
+                    <label class="oculto">Personas: </label>
                     <select name="tipoAlojamiento" id="tipoAlojamiento">
                         <option value="1">1 persona</option>
                         <option value="2">2 personas</option>
@@ -52,8 +86,8 @@
                     <label>Salida</label>
                 </div>
                 <div id="inputs_entrada_salida">
-                    <input type="date" id="fechaSalida" placeholder="22/01/2016">
-                    <input type="date" id="fechaEntrada" placeholder="15/01/2016">
+                    <label class="oculto">Entrada: </label><input type="date" id="fechaSalida" placeholder="22/01/2016">
+                    <label class="oculto">Salida: </label><input type="date" id="fechaEntrada" placeholder="15/01/2016">
                 </div>
                 <div id="div_filtro">
                     <label for="filtro">Filtro: </label>
@@ -80,7 +114,7 @@
                     <div class="info_casa">
                         <picture class="foto_casa">
                             <source
-                                    media="(min-width: 869px)"
+                                    media="(min-width: 683px)"
                                     srcset="images/casa1_b.jpg">
                             <source
                                     media="(min-width: 410px)"
@@ -111,7 +145,7 @@
                     <div class="info_casa">
                         <picture class="foto_casa">
                             <source
-                                    media="(min-width: 869px)"
+                                    media="(min-width: 683px)"
                                     srcset="images/casa2_b.jpg">
                             <source
                                     media="(min-width: 410px)"
@@ -142,7 +176,7 @@
                     <div class="info_casa">
                         <picture class="foto_casa">
                             <source
-                                    media="(min-width: 869px)"
+                                    media="(min-width: 683px)"
                                     srcset="images/casa3_b.jpg">
                             <source
                                     media="(min-width: 410px)"
@@ -154,8 +188,8 @@
                         </picture>
                         <div class="informacion">
                             <div class="primer_div_casa">
-                                <p class="nombre_casa">Casa rural "La Moraleja"</p>
-                                <p><img class="estrella_opiniones" src="images/estrella_opiniones.png" alt="opiniones">8'5 (200 opiniones)</p>
+                                <p class="nombre_casa">Cortijo "El Molino"</p>
+                                <p><img class="estrella_opiniones" src="images/estrella_opiniones.png" alt="opiniones">9'2 (112 opiniones)</p>
                                 <p>60 &euro; persona/noche</p>
                             </div>
                             <div class="descripcion">

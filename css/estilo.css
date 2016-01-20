@@ -1,21 +1,21 @@
-a{
+a {
     text-decoration: none;
 }
 
-.aceptar_atras{
+.aceptar_atras {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 30px;
     margin-top: 2%;
 }
 
-.aceptar_atras input{
+.aceptar_atras input {
     width: 47%;
-
+    height: 35px;
+    margin-top: 5px;
 }
 
-.aceptar_atras input, #mas_menos input{
+.aceptar_atras input, #mas_menos input {
     background-color: #C8E6C9;
     border: 2px outset #6ba65f;
     border-radius: 10px;
@@ -25,34 +25,30 @@ a{
     outline: none;
 }
 
-.aceptar_atras input:hover{
-
-}
-
-.aceptar_atras input:active, #mas_menos input:active{
+.aceptar_atras input:active, #mas_menos input:active {
     background-color: #6e846f;
     border: 2px inset #53834a;
     color: white;
     box-shadow: none;
 }
 
-.aceptar_atras input:not(#enviar_reserva){
+.aceptar_atras input:not(#enviar_reserva) {
     margin-right: 6%;
 }
 
-aside{
+aside {
     padding: 0;
     margin: 0;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
     color: black;
 }
 
-#buscador_huespedes, #entrada_salida, #inputs_entrada_salida, #div_filtro{
+#buscador_huespedes, #entrada_salida, #inputs_entrada_salida, #div_filtro {
     width: 90%;
     display: flex;
     margin: 0 auto;
@@ -60,7 +56,7 @@ body{
     margin-bottom: 3px;
 }
 
-#div_filtro label, #filtro{
+#div_filtro label, #filtro {
     width: 45%;
     margin-left: 2%;
     border-radius: 5px;
@@ -71,17 +67,17 @@ body{
     margin-top: 10px;
 }
 
-#buscarCasa, #tipoAlojamiento{
+#buscarCasa, #tipoAlojamiento {
     width: 45%;
     margin-left: 2%;
     margin-bottom: 5%;
 }
 
-.caracteristicas, .descripcion{
+.caracteristicas, .descripcion {
     display: none;
 }
 
-#inputs_entrada_salida input{
+#inputs_entrada_salida input {
     width: 45%;
     margin-left: 2%;
     border-radius: 5px;
@@ -90,30 +86,30 @@ body{
     margin-right: 5px;
 }
 
-#entrada_salida label{
+#entrada_salida label {
     width: 45%;
     margin-left: 2%;
     font-size: 1em;
 }
 
-#cabecera{
+#cabecera {
     background-color: #4caf50;
     padding: 0;
     margin: 0;
     border-bottom: 2px groove #387038;
 }
 
-.cabecera_casas{
+.cabecera_casas {
     width: 100%;
 }
 
-.campos_formularios:not(.aceptar_atras){
+.campos_formularios:not(.aceptar_atras) {
     display: flex;
     flex-direction: column;
     margin-bottom: 2%;
 }
 
-.campos_formularios div{
+.campos_formularios div {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -125,31 +121,31 @@ body{
     width: 100%;
 }
 
-#casas article{
+#casas article {
     width: 100%;
 }
 
-.campos_formularios div>input:not(.dc_nCuenta) {
+.campos_formularios div > input:not(.dc_nCuenta) {
     width: 20%;
     margin-right: 2%;
 }
 
-#contenedor{
+#contenedor {
     width: 100%;
 }
 
-#cuerpo{
-    background: linear-gradient(to bottom, #e8f5e9,#81c784, #43a047, #1b5e20) fixed;
+#cuerpo {
+    background: linear-gradient(to bottom, #e8f5e9, #81c784, #43a047, #1b5e20) fixed;
     display: flex;
     flex-direction: column;
 }
 
-#dc{
+#dc {
     width: 16%;
     margin-right: 2%;
 }
 
-#div_buscar{
+#div_buscar {
     width: 90%;
     display: flex;
     flex-direction: row;
@@ -157,13 +153,17 @@ body{
     margin-top: 10px;
 }
 
+.entrar_desktop {
+    display: none;
+}
+
 .entrar {
     width: 33%;
     text-align: center;
     height: 8%;
     border-radius: 25px;
-    border: 3px inset   ;
-    top:45%;
+    border: 3px inset;
+    top: 45%;
     left: 33%;
     vertical-align: middle;
     transform: translateZ(0);
@@ -182,8 +182,9 @@ body{
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
-   outline: none;
+    outline: none;
 }
+
 .entrar:before {
     content: "";
     position: absolute;
@@ -202,65 +203,69 @@ body{
     transition-duration: 0.4s;
     transition-timing-function: ease-out;
 }
+
 .entrar:hover, .entrar:focus, .entrar:active {
     color: #000;
     text-decoration: none;
 
 }
+
 .entrar:hover:before, .entrar:focus:before, .entrar:active:before {
     -webkit-transform: scale(0);
     transform: scale(0);
 }
 
-#enviar_busqueda{
+#enviar_busqueda {
     width: 75%;
     margin: 0 auto;
+    height: 32px;
+    letter-spacing: 5px;
     background-color: #727272;
     color: white;
     font-size: 1.2em;
     text-align: center;
+    outline: none;
 }
 
-#enviar_busqueda:active{
+#enviar_busqueda:active {
     background-color: rgba(0, 0, 0, 0.87);
 }
 
-.estrella_opiniones{
+.estrella_opiniones {
     width: 18px;
     margin-right: 10px;
     vertical-align: middle;
 }
 
-footer{
+footer {
     width: 100%;
     margin: 0;
     padding: 0;
     background-color: #1b5e20;
 }
 
-footer p{
+footer p {
     width: 80%;
     text-align: center;
     margin: 0 auto;
     font-size: .9em;
-   margin-top: 5px;
+    margin-top: 5px;
     margin-bottom: 5px;
 
 }
 
-#form_buscar_casa_rural{
+#form_buscar_casa_rural {
     width: 100%;
     margin: auto;
     display: flex;
     flex-direction: column;
 }
 
-#form_buscar_casa_rural  input, #form_buscar_casa_rural select{
+#form_buscar_casa_rural input, #form_buscar_casa_rural select {
     border-radius: 8px;
 }
 
-
-#form_reserva{
+#form_reserva {
     width: 100%;
     padding: 2%;
     display: flex;
@@ -268,7 +273,13 @@ footer p{
     font-size: 1em;
 }
 
-.foto_casa{
+#form_reserva input{
+    margin-bottom: 5px;
+}
+
+
+
+.foto_casa {
     margin: 2% 0 2% 2%;
     padding: 0;
     height: 100px;
@@ -279,49 +290,16 @@ footer p{
     border-radius: 5px;
 }
 
-.image{
+.image {
     width: 100%;
 }
 
-/*  ELEMENTOS DE LA GALERIA DE IMAGENES */
-
-#galeria {
-    padding:0;
-    margin:0;
-    margin-bottom: 15px;
-    list-style-type:none;
-    height: 150px;
-    width:100%;
-    background-image: url("../images/casa_porche_s.png");
-    background-repeat: no-repeat;
-    border-right:2px groove #000;
-}
-#galeria li {
-    width:10%;
-    height:150px;
-    float:left;
-    padding: 0;
-    margin: 0;
-    border:2px groove #000;
-}
-#galeria li img {
-    height:150px;
-    width:100%;
-}
-#galeria li:hover {
-    background:#eee;
-    width:58%;
-}
-#galeria li:hover img {
-    width: 100%;
-}
-
-.info_casa a{
+.info_casa a {
     display: block;
-    width:60%;
+    width: 60%;
     text-align: center;
     font-size: 1.3em;
-    margin:0;
+    margin: 0;
     margin-top: 2px;
     background-color: #FFEB3B;
     border: 2px outset #FBC02D;
@@ -331,21 +309,22 @@ footer p{
     margin-bottom: 5px;
 }
 
-.info_casa a:active{
+.info_casa a:active {
     color: #252525;
     background-color: #cdb935;
     border: 2px inset #c99728;
 }
 
-a:link{
-    text-decoration:none;color:#0000cc;
+a:link {
+    text-decoration: none;
+    color: #0000cc;
 }
 
-header{
+header {
     width: 100%;
 }
 
-hr{
+hr {
     margin: 5px;
     clear: both;
 }
@@ -356,7 +335,7 @@ hr{
     background-repeat: no-repeat;
 }
 
-.info_casa{
+.info_casa {
     display: flex;
     max-width: 100%;
     flex-direction: row;
@@ -365,68 +344,96 @@ hr{
     font-size: .8em;
 }
 
-.informacion{
+.info_casa picture{
+    margin: 5px 3% 7px 3%;
+}
+
+.informacion {
     width: 58%;
     max-width: 58%;
     display: flex;
     flex-direction: column;
-    padding: 15px 5px 5px 10px;
+    padding: 4% 2% 3% 7%;
 }
 
-.informacion p{
+.informacion p {
     width: 100%;
     line-height: 20px;
     margin: 0;
     padding: 0;
 }
 
-#mas_menos{
+#mas_menos {
     display: flex;
     flex-direction: row;
 }
-#mas_menos input{
+
+#mas_menos input {
     width: 17%;
     margin-left: 4%;
     font-size: 1.4em;
 }
 
-#mostrar_numero_personas{
+#mostrar_numero_personas {
     width: 7%;
     text-align: center;
     font-size: 1.4em;
 }
 
-#main{
+#main {
     display: flex;
 }
 
-#menos{
+#menos {
     margin-right: 4%;
 }
 
-#nCuenta{
+#nCuenta {
     width: 38%;
 }
 
+.oculto{
+    display: none;
+}
+
 .pajaro {
-    position:absolute;
-    width:30px;
-    height:27px;
+    position: absolute;
+    width: 30px;
+    height: 27px;
     float: right;
-    right:-30px;
-    background:url(../images/pajaro.gif);
+    right: -30px;
+    background: url(../images/pajaro.gif);
     -moz-animation: pajaro1 17s infinite linear;
     -webkit-animation: pajaro1 17s infinite linear;
     animation: pajaro1 17s infinite linear;
 }
+
 @-moz-keyframes pajaro1 {
-    0% 	{right:-7px;top:24%;-webkit-transform:scale(0.6);}
-    100% 	{right:115%;top:21%;-webkit-transform:scale(0.9);}
+    0% {
+        right: -7px;
+        top: 24%;
+        -webkit-transform: scale(0.6);
+    }
+    100% {
+        right: 115%;
+        top: 21%;
+        -webkit-transform: scale(0.9);
+    }
 }
+
 @-webkit-keyframes pajaro1 {
-    0% 	{right:-7px;top:24%;-webkit-transform:scale(0.6);}
-    100% 	{right:115%;top:21%;-webkit-transform:scale(0.9);}
+    0% {
+        right: -7px;
+        top: 24%;
+        -webkit-transform: scale(0.6);
+    }
+    100% {
+        right: 115%;
+        top: 21%;
+        -webkit-transform: scale(0.9);
+    }
 }
+
 .pajaro2 {
     -webkit-animation: pajaro2 20s infinite linear;
     -moz-animation: pajaro2 20s infinite linear;
@@ -434,15 +441,32 @@ hr{
 }
 
 @-webkit-keyframes pajaro2 {
-    0% 	{right:-20px;top:18%;-webkit-transform:scale(0.5);}
-    100% 	{right:105%;top:20%;-webkit-transform:scale(0.8);}
-}
-@-moz-keyframes pajaro2 {
-    0% 	{right:-20px;top:18%;-webkit-transform:scale(0.5);}
-    100% 	{right:105%;top:20%;-webkit-transform:scale(0.8);}
+    0% {
+        right: -20px;
+        top: 18%;
+        -webkit-transform: scale(0.5);
+    }
+    100% {
+        right: 105%;
+        top: 20%;
+        -webkit-transform: scale(0.8);
+    }
 }
 
-#pantalla_principal{
+@-moz-keyframes pajaro2 {
+    0% {
+        right: -20px;
+        top: 18%;
+        -webkit-transform: scale(0.5);
+    }
+    100% {
+        right: 105%;
+        top: 20%;
+        -webkit-transform: scale(0.8);
+    }
+}
+
+#pantalla_principal {
     width: 100%;
 }
 
@@ -450,8 +474,7 @@ hr{
     width: 100%;
 }
 
-
-#principal p{
+#principal p {
     width: 80%;
     margin: 0 auto;
     text-align: center;
@@ -463,11 +486,11 @@ hr{
     display: none;
 }
 
-.galeria img{
+.galeria img {
     display: none;
 }
 
-#titulo_pagina_principal{
+#titulo_pagina_principal {
     width: 70%;
     margin: auto;
     font-family: 'Bangers', cursive;
@@ -477,7 +500,7 @@ hr{
     font-size: 2.4em;
 }
 
-#titulo_principal{
+#titulo_principal {
     margin: auto;
     padding: 15px;
     font-weight: bold;
@@ -488,67 +511,114 @@ hr{
 * Para resoluciones con una anchura mínima de 410px
 *
 */
-@media screen and (min-width:410px) {
+@media screen and (min-width: 410px) {
 
-
-    .aceptar_atras input{
-        font-size: 1em;
-
+    .aceptar_atras {
+        height: 45px;
+        margin-top: 5%;
     }
 
-    #buscador_huespedes, #entrada_salida, #inputs_entrada_salida{
-        width: 90%;
+    .aceptar_atras input {
+        width: 45%;
+        height: 40px;
+        border: 0;
+    }
+
+    .aceptar_atras input, #mas_menos input {
+        letter-spacing: normal;
+        background: linear-gradient(220deg, #f4f43f, #d6d63a);
+        border: 0;
+        border-radius: 10px;
+        font-size: 1.5em;
+        box-shadow: 0px 4px 0 #819F45;
+        text-shadow: 2px 2px 1px #E1FEA6;
+    }
+
+    .aceptar_atras input:active, #mas_menos input:active {
+        position: relative;
+        top: 3px;
+        box-shadow: 0px 2px 0 #819F45;
+        color: #1b5e20;
+        background: linear-gradient(110deg, #d6d63a 0%, #f4f43f 100%) repeat scroll 0 0 transparent;;
+    }
+
+    .aceptar_atras input:not(#enviar_reserva) {
+        margin-right: 6%;
+    }
+
+    #form_buscar_casa_rural {
         display: flex;
-        padding: 0px;
-        margin: 0 auto;
         font-size: 1.2em;
     }
 
-    #casas {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    #casas article{
-        width: 100%;
-    }
-
-    #buscador_huespedes, #entrada_salida, #inputs_entrada_salida, #div_filtro{
+    #form_buscar_casa_rural div {
         width: 90%;
-        display: flex;
-        margin: 0 auto;
-        flex-direction: row;
-        margin-bottom: 3px;
+        display: inline-flex;
     }
 
-    #div_filtro label, #filtro{
-        width: 45%;
-        margin-left: 2%;
-        border-radius: 5px;
-        display: flex;
-        font-size: 1em;
-        flex-direction: row;
-        margin-right: 5px;
-        margin-top: 10px;
+    .campos_formularios:not(.aceptar_atras) {
+        display: block;
     }
 
-    #entrada_salida label{
-        width: 45%;
-        margin-left: 2%;
+    .campo_bloque:not(.aceptar_atras) {
+        display: block;
+
     }
 
-    .foto_casa{
+    .campo_bloque label, .campo_bloque input {
+        display: block;
+        width: 100%;
+    }
+
+    .campo_enlinea {
+        display: block;
+    }
+
+    .campo_enlinea label {
+        width: 33%;
+        display: inline-block;
+    }
+
+    .campo_enlinea input {
+        width: 67%;
+        display: inline-block;
+    }
+
+    #div_buscar {
+        margin-bottom: 10px;
+    }
+
+    #div_buscar input {
+        width: 50%;
+        letter-spacing: normal;
+        height: 40px;
+        background: linear-gradient(220deg, #f4f43f, #d6d63a);
+        border: 0;
+        border-radius: 10px;
+        font-size: 1.7em;
+        box-shadow: 0px 4px 0 #819F45;
+        text-shadow: 1px 1px 1px #E1FEA6;
+    }
+
+    #div_buscar input:active {
+        position: relative;
+        top: 3px;
+        box-shadow: 0px 2px 0 #819F45;
+        background: linear-gradient(110deg, #d6d63a 0%, #f4f43f 100%) repeat scroll 0 0 transparent;
+    }
+
+    .foto_casa {
         margin: 2% 0 2% 2%;
         padding: 0;
-        width: 35%;
+        width: 40%;
+        height: 130px;
         display: inline-flex;
         position: relative;
         border: 1px outset #525b5f;
         border-radius: 5px;
     }
 
-    .image{
+    .image {
         width: 100%;
     }
 
@@ -558,64 +628,61 @@ hr{
         background-repeat: no-repeat;
     }
 
-    .informacion{
+    .informacion {
         width: 58%;
         max-width: 58%;
         display: flex;
         flex-direction: column;
-        padding: 12px 3px 3px 8px;
-        font-size: 1.3em;
+        padding: 12px 3px 3px 25px;
+        font-size: 1.5em;
     }
 
-    .informacion p{
+    .informacion p {
         width: 100%;
         line-height: 170%;
         margin: 0;
         padding: 0;
     }
 
-
-    #form_buscar_casa_rural{
-        width: 100%;
+    #form_reserva {
+        width: 95%;
         margin: auto;
-        display: flex;
-        flex-direction: column;
-    }
-
-    #form_buscar_casa_rural  input, #form_buscar_casa_rural select{
-        border-radius: 8px;
-    }
-
-
-
-    #form_reserva{
-        width: 100%;
+        margin-top: 5%;
         padding: 2%;
         display: flex;
         flex-direction: column;
         font-size: 16px;
     }
 
-    #main{
+    #main {
         display: flex;
     }
 
-    #mas_menos{
+    #mas_menos {
         display: flex;
         flex-direction: row;
     }
-    #mas_menos input{
-        width: 17%;
+
+    #mas_menos label {
+        width: 40%;
+    }
+
+    #mas_menos input {
+        width: 20%;
         margin-left: 4%;
         border-radius: 5px;
         font-size: 1.4em;
     }
 
-    #titulo_pagina_principal{
+    #principal p {
+        font-size: 18px;
+    }
+
+    #titulo_pagina_principal {
         font-size: 3em;
     }
 
-    #titulo_principal{
+    #titulo_principal {
         font-size: 3em;
     }
 }
@@ -625,59 +692,346 @@ hr{
 * Para resoluciones con una anchura mínima de 869px
 *
 */
-@media screen and (min-width:683px) {
+@media screen and (min-width: 683px) {
 
-
-    aside{
+    aside {
         width: 30%;
     }
 
-    #cabecera, #contenedor, .galeria, #cuerpo{
+    .aceptar_atras input{
+        width: 35%;
+        height: 35px;
+        margin: 0 auto;
+        font-size: 1.2em;
+        background: linear-gradient(220deg, rgba(77, 240, 87, 0.91), #41dc4b);
+        box-shadow: 0px 4px 0 #40c94a;
+        text-shadow: none;
+    }
+
+    .aceptar_atras input:hover{
+        margin: 0 auto;
+        background: linear-gradient(220deg, rgba(71, 205, 81, 0.91), #3eaf47);
+        color: inherit;
+        border: none;
+    }
+
+    .aceptar_atras:after, .aceptar_atras:focus{
+        margin: 0 auto;
+        background: linear-gradient(220deg, rgba(71, 205, 81, 0.91), #3eaf47);
+        color: inherit;
+        border: none;
+    }
+
+    body{
+        font-family: 'Raleway';
+    }
+
+    #cabecera, #contenedor, .galeria, #cuerpo {
         background: white;
         margin: 0;
         padding: 0;
         border-bottom: none;
     }
 
-    #contenedor{
+    .caracteristicas{
         display: flex;
         flex-direction: row;
     }
 
-    .imagen_principal{
+    .caracteristicas p{
+        display: inline-block;
+        border-top: 1px solid rgba(0, 203, 36, 0.66);
+        border-right: 1px solid rgba(0, 203, 36, 0.66);
+        border-left: 1px solid rgba(0, 203, 36, 0.66);
+        border-radius: 3px;
+        text-align: center;
+        margin: 8% 2% 8px 0;
+        margin-right: 5px;
+        transition: 0.5s;
+        font-size: 12px;
+        padding: 1px 5px 1px 5px;
+        max-height: 15px;
+    }
+
+    .caracteristicas p:hover{
+        background-color: rgba(0, 203, 36, 0.34);
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+
+
+    #casas{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #casas article{
+        width: 100%;
+        height: 100%;
+    }
+
+    #contenedor {
+        width: 100%;
+        margin-top: 15px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .descripcion{
+        display: block;
+    }
+
+    .descripcion, .caracteristicas{
+        font-size: .8em;
+    }
+
+    .destacado{
+        width: 100%;
+        height: 10%;
+        font-size: .9em;
+        position: relative;
+        top: -10%;
+        background-color: rgba(142, 225, 155, 0.4);
+        text-align: center;
+    }
+
+    #div_buscar{
+        width: 60%;
+    }
+
+    #entrada_salida label{
+        display: none;
+    }
+
+    .entrar {
+        display: none;
+    }
+
+    .entrar_desktop {
+        display: block;
+        width: 33%;
+        text-align: center;
+        height: 50px;
+        left: 33%;
+        margin: 0 auto;
+        vertical-align: middle;
+        margin-top: 25%;
+        border-left: 2px inset #685b11;
+        border-bottom: 2px inset #685b11;
+        border-right: 2px outset #685b11;
+        background: #998e2d;
+        color: #f2f2f2;
+        background: linear-gradient(to right, #1e8237, #50e26d);
+        padding: 5px 10px 15px 10px;
+        font-family: 'Bangers', cursive;
+        letter-spacing: 10px;
+        font-size: 2em;
+        border-radius: 2px;
+        position: absolute;
+        box-sizing: border-box;
+        transition: all 500ms ease;
+        transform-style: preserve-3d;
+        border-top: 1px inset;
+    }
+
+    .entrar_desktop:after {
+        top: -100%;
+        left: 0px;
+        width: 100%;
+        height: 50px;
+        position: absolute;
+        background: #b9ae2e;
+        border-left: 2px outset #685b11;
+        border-top: 2px outset #685b11;
+        border-right: 2px inset #685b11;
+        background: linear-gradient(to right, #50e26d, #1e8237);
+        border-radius: 2px;
+        padding: 5px 10px 15px 10px;
+        content: 'Entrar';
+        transform-origin: left bottom;
+        transform: rotateX(90deg);
+    }
+
+    .entrar_desktop:hover {
+        transform-origin: center bottom;
+        transform: rotateX(-88deg) translateY(100%);
+    }
+
+    #div_buscar input{
+        font-size: 16px;
+        height: 25px;
+        width: 80%;
+        color: rgba(0, 0, 0, 0.85);
+        font-weight: bold;
+        font-family: 'Poppins';
+    }
+
+    #form_buscar_casa_rural{
+        padding: 15px;
+        display: block;
+        width: 90%;
+        border: 2px outset #1b6d85;
+        font-size: 14px;
+        background-color: rgba(64, 238, 75, 0.43);
+        box-shadow:  4px 4px 2px 1px rgba(192, 192, 192, 0.85);
+    }
+
+    #form_buscar_casa_rural div:not(#div_buscar){
+        width: 100%;
+        display: block;
+    }
+
+    #form_buscar_casa_rural input:not(#enviar_busqueda), #form_buscar_casa_rural select{
+        display: block;
+        width: 90%;
+        border-radius: 0;
+        border: 2px inset rgba(154, 154, 154, 0.85);
+    }
+
+    #img{
+        width: 100%;
+        background-image: url("../images/fondo_formulario.jpg");
+        /*background-attachment: fixed;*/
+    }
+
+    #form_reserva{
+        width: 40%;
+        margin:0 auto;
+        border: 0;
+        /*border-radius: 15px 2px 15px 2px;*/
+        margin-top: 30px;
+        margin-bottom: 50px;
+        box-shadow: 2px 2px 1px 1px rgba(205, 205, 205, 0.82);
+        background-image: url("../images/fondo_formulario_desenfoque.jpg");
+    }
+    #form_reserva label, #mas_menos{
+        color: black;
+        font-weight: normal;
+    }
+
+    #mas_menos input {
+        letter-spacing: normal;
+        background: linear-gradient(220deg, rgba(74, 236, 84, 0.91), #41c54b);
+        box-shadow: 0px 4px 0 #3aa843;
+        border: 0;
+        height: 30px;
+        border-radius: 10px;
+        font-size: 1.5em;
+        text-shadow: none;
+    }
+
+    #mas_menos input:active {
+        letter-spacing: normal;
+        background: linear-gradient(220deg, #48e652, #43d14d);
+        border: 0;
+        border-radius: 10px;
+        font-size: 1.5em;
+        box-shadow: 0px 2px 0 #3fc349;
+
+    }
+
+    #aceptar_atras input{
+        font-size: 1em;
+        width: 25%;
+    }
+
+    .foto_casa{
+        width: 20%;
+    }
+
+    .galeria {
+        display: flex;
+        visibility: visible;
+        position: relative;
+        flex-direction: row;
+        width: 100%;
+        height: 160px;
+    }
+
+    .galeria picture{
+        width: 23%;
+        border: 3px inset rgba(55, 93, 63, 0.59);
+        height: 170px;
+    }
+
+    .galeria picture:not(.ultima_foto_galeria){
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+
+    .galeria img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .info_casa{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+    }
+
+    .info_casa picture{
+        width: 200px;
+        height: 175px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .informacion{
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        width: 75%;
+        padding: 20px;
+    }
+
+    .informacion a{
+        font-size: 1em;
+        width: 35%;
+        border-radius: 10px;
+    }
+
+    .imagen_principal {
         background-image: url("../images/imagen_principal_pc.png");
     }
 
-    .pajaro, .pajaro2{
+    #main{
+        width: 70%;
+    }
+
+    .oculto{display: block; margin-left: 3%}
+
+    .pajaro, .pajaro2 {
         visibility: hidden;
         display: none;
     }
 
-    .galeria{
-        display: block;
-        visibility: visible;
-        position: relative;
+    .primer_div_casa{
+        display: flex;
+        flex-direction: row;
     }
 
-    .galeria img{
-        display: block;
-        width: 20%;
+    .primer_div_casa p{
+        margin-right: 70px;
     }
 
-    #separador_cabecera{
+    #separador_cabecera {
         background-color: rgba(2, 74, 11, 0.86);
         height: 1em;
         width: 100%;
     }
 
-    #titulo_pagina_principal{
+    #titulo_pagina_principal {
         padding: 0;
         width: 65%;
         margin: auto;
-        font-size:60px;
+        font-size: 60px;
     }
 
-    #titulo_principal{
+    #titulo_principal {
         font-size: 3em;
     }
 }
