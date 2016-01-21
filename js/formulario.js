@@ -6,6 +6,10 @@ function aumentarPersonas(span){
     var n = Number(span.textContent);
     if(n <= 11){
         span.innerHTML = n+1+"+";
+
+    }
+    if(isNaN(n)){
+        n = Number(11);
     }
     if(n < 10){
         n += 1;
@@ -38,7 +42,5 @@ window.addEventListener('load', function(){
     atras.addEventListener('click', function(){
         history.back();
     });
-    if(alturaPantalla > 480 && alturaPantalla < 568){
-        principal.style.fontSize = "15px";
-    }
+
 });
