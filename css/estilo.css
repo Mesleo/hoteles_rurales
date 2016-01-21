@@ -278,6 +278,9 @@ footer p {
     margin-bottom: 5px;
 }
 
+#form_reserva input[type=date]{
+    width: 100%;
+}
 
 
 .foto_casa {
@@ -655,6 +658,11 @@ hr {
         flex-direction: column;
         font-size: 16px;
     }
+
+    #form_reserva input[type=date]{
+        width: 67%;
+    }
+
 
     #main {
         display: flex;

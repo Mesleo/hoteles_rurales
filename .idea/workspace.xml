@@ -2,36 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93b4584d-3207-4993-8331-68e869a0b56b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/cocina_b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/cocina_hdpi.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/cocina_m.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/cocina_s.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/habitacion_b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/habitacion_hdpi.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/habitacion_m.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/habitacion_s.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/iglesia_b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/iglesia_hdpi.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/iglesia_m.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/iglesia_s.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sofa_b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sofa_hdpi.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sofa_m.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sofa_s.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/slider/cocina.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/slider/cocina_hdpi.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/slider/habitacion.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/slider/habitacion_hdpi.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/slider/iglesia.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/slider/iglesia_hdpi.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/slider/jarron.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/slider/jarron_hdpi.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/slider/sofa.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/slider/sofa_hdpi.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/casas_rurales.html" afterPath="$PROJECT_DIR$/casas_rurales.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/estilo.css" afterPath="$PROJECT_DIR$/css/estilo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/formulario.js" afterPath="$PROJECT_DIR$/js/formulario.js" />
     </list>
     <ignored path="Practica12-HotelesRurales.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,21 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="estilo.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="estilo.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/estilo.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.2545457">
-              <caret line="768" column="16" selection-start-line="768" selection-start-column="16" selection-end-line="768" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="formulario.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/formulario.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.344828">
-              <caret line="33" column="77" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="77" />
+            <state vertical-scroll-proportion="0.60980034">
+              <caret line="662" column="17" selection-start-line="662" selection-start-column="17" selection-end-line="662" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -76,8 +38,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.461538">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            <state vertical-scroll-proportion="-4.576923">
+              <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -93,10 +55,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="casas_rurales.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="casas_rurales.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/casas_rurales.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.58965516">
+            <state vertical-scroll-proportion="-13.153846">
               <caret line="195" column="106" selection-start-line="195" selection-start-column="106" selection-end-line="195" selection-end-column="106" />
               <folding />
             </state>
@@ -142,8 +104,8 @@
         <option value="$USER_HOME$/AppData/Local/Temp/scp26131/var/www/html/pages/preguntas_respuestas.php" />
         <option value="$PROJECT_DIR$/formulario.html" />
         <option value="$PROJECT_DIR$/js/formulario.js" />
-        <option value="$PROJECT_DIR$/css/estilo.css" />
         <option value="$PROJECT_DIR$/casas_rurales.html" />
+        <option value="$PROJECT_DIR$/css/estilo.css" />
       </list>
     </option>
   </component>
@@ -406,14 +368,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.461538">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/formulario.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.923077">
@@ -430,18 +384,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/estilo.css">
+    <entry file="file://$PROJECT_DIR$/casas_rurales.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.2545457">
-          <caret line="768" column="16" selection-start-line="768" selection-start-column="16" selection-end-line="768" selection-end-column="16" />
+        <state vertical-scroll-proportion="-13.153846">
+          <caret line="195" column="106" selection-start-line="195" selection-start-column="106" selection-end-line="195" selection-end-column="106" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/casas_rurales.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58965516">
-          <caret line="195" column="106" selection-start-line="195" selection-start-column="106" selection-end-line="195" selection-end-column="106" />
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/estilo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60980034">
+          <caret line="662" column="17" selection-start-line="662" selection-start-column="17" selection-end-line="662" selection-end-column="17" />
           <folding />
         </state>
       </provider>
